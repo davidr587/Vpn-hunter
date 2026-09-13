@@ -13,13 +13,15 @@ Herramienta de automatización desarrollada en Python para el triaje rápido de 
 * **Lenguaje:** Python 3.x
 * **Librerías:** `requests`, `csv`, `python-dotenv`, `time`
 * **Arquitectura:** Diseño modular y manejo de excepciones (Error Handling) para evitar interrupciones por límites de tasa (Rate Limiting).
-4. ## 🔐 Configuración Previa
+* 
+## 🔐 Configuración Previa
 Para que la herramienta funcione en tu entorno local, necesitas tu propia clave de API gratuita:
 
 1. Regístrate en [AbuseIPDB](https://www.abuseipdb.com/) y genera una API Key.
 2. Crea un archivo llamado `.env` en la raíz de este proyecto.
 3. Añade la siguiente línea reemplazando el valor con tu clave real:
    ```text
+   ABUSEIPDB_API_KEY=tu_clave_api_aqui
 
 ## ⚙️ Uso
 1. Colocar las IPs a investigar en el archivo `ips.txt` (una por línea).
