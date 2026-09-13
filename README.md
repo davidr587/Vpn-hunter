@@ -32,3 +32,6 @@ Para que la herramienta funcione en tu entorno local, necesitas tu propia clave 
 4. Instala las dependencias necesarias usando: `pip install requests python-dotenv`
 5. Asegúrate de tener las IPs a analizar en el archivo `ips.txt` y tu credencial en el `.env`.
 6. Inicia la herramienta ejecutando: `python vpn_hunter.py`
+
+## Ejemplo de reporte generado
+![Ejemplo de Reporte SOC Generado](ejemplo_reporte_soc.png)
