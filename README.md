@@ -34,4 +34,5 @@ Para que la herramienta funcione en tu entorno local, necesitas tu propia clave 
 6. Inicia la herramienta ejecutando: `python vpn_hunter.py`
 
 ## Ejemplo de reporte generado
-![Ejemplo de Reporte SOC Generado](ejemplo_reporte_soc.png)
+<img width="716" height="181" alt="ejemplo_reporte_soc png" src="https://github.com/user-attachments/assets/712a7d95-12e2-4f48-83e0-8be5704f6edf" />
+
