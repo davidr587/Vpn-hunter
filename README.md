@@ -29,6 +29,5 @@ Para que la herramienta funcione en tu entorno local, necesitas tu propia clave 
 3. El sistema evaluará el *Usage Type*, nodo Tor y *Confidence Score*, generando alertas en consola y exportando el análisis final al archivo `reporte_soc.csv`.
 
 
-   ABUSEIPDB_API_KEY=tu_clave_api_aqui
 
 > *"La automatización es clave en la respuesta a incidentes. Esta herramienta reduce el tiempo de triaje inicial de minutos a segundos."*
