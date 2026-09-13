@@ -19,4 +19,13 @@ Herramienta de automatización desarrollada en Python para el triaje rápido de 
 2. Ejecutar el script: `python vpn_hunter.py`
 3. El sistema evaluará el *Usage Type*, nodo Tor y *Confidence Score*, generando alertas en consola y exportando el análisis final al archivo `reporte_soc.csv`.
 
+4. ## 🔐 Configuración Previa
+Para que la herramienta funcione en tu entorno local, necesitas tu propia clave de API gratuita:
+
+1. Regístrate en [AbuseIPDB](https://www.abuseipdb.com/) y genera una API Key.
+2. Crea un archivo llamado `.env` en la raíz de este proyecto.
+3. Añade la siguiente línea reemplazando el valor con tu clave real:
+   ```text
+   ABUSEIPDB_API_KEY=tu_clave_api_aqui
+
 > *"La automatización es clave en la respuesta a incidentes. Esta herramienta reduce el tiempo de triaje inicial de minutos a segundos."*
