@@ -10,6 +10,9 @@ from dotenv import load_dotenv
 load_dotenv()  # Esto carga la bóveda secreta (.env)
 API_KEY = os.getenv('ABUSEIPDB_API_KEY') 
 URL = 'https://api.abuseipdb.com/api/v2/check'
+if not API_KEY:
+    print("[!] Error: No se encontro la API Key. Verifica que tu archivo .env exista y este bien escrito.")
+    exit()
 
 cabeceras = {
     'Accept': 'application/json',
