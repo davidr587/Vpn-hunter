@@ -75,3 +75,4 @@ with open(nombre_archivo, 'w', newline='', encoding='utf-8') as archivo_csv:
 
 print("\n[+] Analisis completado con exito.")
 print(f"[+] Se ha generado el archivo '{nombre_archivo}' en tu carpeta.\n")
+input("\nPresiona Enter para cerrar la ventana...")
