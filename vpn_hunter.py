@@ -4,6 +4,7 @@ import csv
 import os
 from datetime import datetime  # 
 from dotenv import load_dotenv
+# David_Ramos
 
 # 1. Configuración de credenciales de forma SEGURA
 load_dotenv()  # Esto carga la bóveda secreta (.env)
