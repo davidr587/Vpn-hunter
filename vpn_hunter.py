@@ -27,7 +27,7 @@ print("\n[+] Iniciando analisis de IPs y generando reporte...\n")
 fecha_hora = datetime.now().strftime("%Y%m%d_%H%M%S")
 nombre_archivo = f"reporte_soc_{fecha_hora}.csv"
 
-with open(nombre_archivo, 'w', newline='', encoding='utf-8') as archivo_csv:
+with open(nombre_archivo, 'w', newline='', encoding='utf-8-sig') as archivo_csv:
     escritor_csv = csv.writer(archivo_csv)
     
     escritor_csv.writerow(['IP Analizada', 'País', 'ISP', 'Tipo de Red', '¿Es Tor?', 'Prob. Abuso (%)', 'Estado/Alerta'])
