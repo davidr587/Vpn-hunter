@@ -23,11 +23,13 @@ Para que la herramienta funcione en tu entorno local, necesitas tu propia clave 
    ```text
    ABUSEIPDB_API_KEY=tu_clave_api_aqui
 
-## ⚙️ Uso
-1. Colocar las IPs a investigar en el archivo `ips.txt` (una por línea).
-2. Ejecutar el script: `python vpn_hunter.py`
-3. El sistema evaluará el *Usage Type*, nodo Tor y *Confidence Score*, generando alertas en consola y exportando el análisis final al archivo `reporte_soc.csv`.
+## 🚀 Instalación y Uso
 
+## 🚀 Instalación y Uso
 
-
-> *"La automatización es clave en la respuesta a incidentes. Esta herramienta reduce el tiempo de triaje inicial de minutos a segundos."*
+1. Descarga este repositorio y abre tu terminal en la carpeta del proyecto.
+2. Crea un entorno virtual ejecutando el comando: `python -m venv venv`
+3. Actívalo ejecutando: `venv\Scripts\activate`
+4. Instala las dependencias necesarias usando: `pip install requests python-dotenv`
+5. Asegúrate de tener las IPs a analizar en el archivo `ips.txt` y tu credencial en el `.env`.
+6. Inicia la herramienta ejecutando: `python vpn_hunter.py`
