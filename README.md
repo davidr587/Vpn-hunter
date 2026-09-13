@@ -28,7 +28,7 @@ Para que la herramienta funcione en tu entorno local, necesitas tu propia clave 
 
 1. Descarga este repositorio y abre tu terminal en la carpeta del proyecto.
 2. Crea un entorno virtual ejecutando el comando: `python -m venv venv`
-3. Actívalo ejecutando: `venv\Scripts\activate`
+3. Actívalo ejecutando venv\Scripts\activate (en Windows) o source venv/bin/activate (en Mac/Linux).
 4. Instala las dependencias necesarias usando: `pip install requests python-dotenv`
 5. Asegúrate de tener las IPs a analizar en el archivo `ips.txt` y tu credencial en el `.env`.
 6. Inicia la herramienta ejecutando: `python vpn_hunter.py`
